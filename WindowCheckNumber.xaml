@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApplication_v1.WindowCheckNumber"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication_v1"
+        mc:Ignorable="d"
+        Title="Forced Choice" Height="500" Width="621" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Border BorderThickness="1" BorderBrush="Black"/>
+        <Button x:Name="button" Content="39721" HorizontalAlignment="Left" Margin="228,126,0,0" VerticalAlignment="Top" Width="133" Height="39" FontSize="30" FontWeight="Bold"/>
+        <Button x:Name="button1" Content="{Binding Path=display}" HorizontalAlignment="Left" Margin="228,179,0,0" VerticalAlignment="Top" Width="133" Height="39" FontSize="30" FontWeight="Bold"/>
+        <Label x:Name="label" Content="Click on the number you just saw" HorizontalAlignment="Left" Margin="126,243,0,0" VerticalAlignment="Top" Width="333" Height="45" FontSize="20" FontWeight="Bold"/>
+
+    </Grid>
+
+
+</Window>
