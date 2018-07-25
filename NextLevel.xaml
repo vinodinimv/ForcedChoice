@@ -1,0 +1,30 @@
+﻿<Window x:Class="WpfApplication_v1.NextLevel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication_v1"
+        mc:Ignorable="d"
+        Title="Forced Choice" Height="500" Width="625" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Border BorderBrush="Black" BorderThickness="1" Margin="29,33,25.2,42">
+            <!--Border Padding="10"-->
+            <StackPanel>
+                <Grid >
+                    <TextBlock TextWrapping="Wrap" FontSize="25" Margin="159,42,176.6,325.8" >
+			            Level 1 Completed.</TextBlock>
+                    <TextBlock TextWrapping="Wrap" FontSize="25" Margin="20,104,29.6,189.6" >
+                    The delay and test difficulty are now going to be increased.Please continue as you have been doing.
+
+                    </TextBlock>
+                    <Button Content="Click anywhere on this button to continue"  Margin="65,234,72.6,0"
+                        VerticalAlignment="Top"  Click="Button_Click_Winnumber2" Height="51" FontSize="20" FontWeight="Bold">
+                    </Button>
+
+                </Grid>
+            </StackPanel>
+        </Border>
+
+
+</Grid>
+</Window>
